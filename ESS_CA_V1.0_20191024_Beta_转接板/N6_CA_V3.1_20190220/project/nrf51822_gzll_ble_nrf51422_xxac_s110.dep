@@ -1,0 +1,445 @@
+Dependencies for Project 'nrf51822_gzll_ble', Target 'nrf51422_xxac_s110': (DO NOT MODIFY !)
+F (..\User\main.c)(0x568BBCBF)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\Include\nordic_common.h)(0x53B263DE)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (..\Include\nrf_gpio.h)(0x5451087C)
+I (..\Include\spi_master.h)(0x53B263E0)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (..\User\ep_comm.h)(0x569F80A4)
+I (..\User\ep_gps.h)(0x5684E027)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (..\User\twi_master_int.h)(0x5684D862)
+I (..\User\ep_misc.h)(0x569F826F)
+I (..\User\ep_tick.h)(0x56656133)
+I (..\User\ep_temp.h)(0x5684DC4F)
+I (..\User\ep_battery.h)(0x568B6343)
+I (..\User\ep_motor.h)(0x56A054B5)
+I (..\User\ep_protection.h)(0x568A1068)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler\softdevice_handler.h)(0x559E9F76)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_sdm.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_svc.h)(0x54EC1A10)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_soc.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error_soc.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error_sdm.h)(0x54DDCD7A)
+I (D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x559E9F74)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util\app_util.h)(0x559E9F74)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler\ble_stack_handler_types.h)(0x559E9F76)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_ranges.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_types.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gap.h)(0x54EC1B10)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_l2cap.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_err.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gatt.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gattc.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gatts.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler\ant_stack_handler_types.h)(0x559E9F76)
+I (..\User\ep_pstorage.h)(0x568B83AB)
+I (D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC\pstorage.h)(0x559E9F74)
+I (D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC\pstorage_platform.h)(0x559E9F74)
+I (..\User\ep_gzll.h)(0x569CCCDD)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll\nrf_gzll.h)(0x559E9F74)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll\nrf_gzll_constants.h)(0x559E9F74)
+I (..\User\ep_ble_stack.h)(0x56848EAE)
+F (..\User\twi_master_int.c)(0x5684D7DF)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\twi_master_int.o --omf_browse .\_build\twi_master_int.crf --depend .\_build\twi_master_int.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (..\User\twi_master_int.h)(0x5684D862)
+I (..\Include\nrf_delay.h)(0x565D3730)
+I (..\Include\nrf_gpio.h)(0x5451087C)
+I (..\User\ep_gps.h)(0x5684E027)
+I (..\User\ep_misc.h)(0x569F826F)
+F (..\User\ep_gps.c)(0x56A03E09)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\ep_gps.o --omf_browse .\_build\ep_gps.crf --depend .\_build\ep_gps.d)
+I (..\User\ep_gps.h)(0x5684E027)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (..\User\twi_master_int.h)(0x5684D862)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (..\Include\nrf_gpio.h)(0x5451087C)
+I (..\User\ep_misc.h)(0x569F826F)
+I (..\User\ep_tick.h)(0x56656133)
+F (..\User\ep_tick.c)(0x56A03F1C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\ep_tick.o --omf_browse .\_build\ep_tick.crf --depend .\_build\ep_tick.d)
+I (..\Include\nordic_common.h)(0x53B263DE)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (..\Include\nrf_gpio.h)(0x5451087C)
+I (..\User\ep_tick.h)(0x56656133)
+F (..\User\ep_temp.c)(0x56A03E00)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\ep_temp.o --omf_browse .\_build\ep_temp.crf --depend .\_build\ep_temp.d)
+I (..\Include\nordic_common.h)(0x53B263DE)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (..\Include\nrf_gpio.h)(0x5451087C)
+I (..\User\ep_temp.h)(0x5684DC4F)
+I (..\User\ep_misc.h)(0x569F826F)
+F (..\User\ep_comm.c)(0x56A03DCD)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\ep_comm.o --omf_browse .\_build\ep_comm.crf --depend .\_build\ep_comm.d)
+I (..\User\ep_comm.h)(0x569F80A4)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Include\nrf_gpio.h)(0x5451087C)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (..\User\ep_tick.h)(0x56656133)
+I (..\User\ep_temp.h)(0x5684DC4F)
+I (..\User\ep_misc.h)(0x569F826F)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (..\User\ep_gps.h)(0x5684E027)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (..\User\twi_master_int.h)(0x5684D862)
+I (..\User\ep_motor.h)(0x56A054B5)
+I (..\User\ep_battery.h)(0x568B6343)
+I (..\User\ep_pstorage.h)(0x568B83AB)
+I (D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC\pstorage.h)(0x559E9F74)
+I (D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC\pstorage_platform.h)(0x559E9F74)
+I (..\User\ep_gzll.h)(0x569CCCDD)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll\nrf_gzll.h)(0x559E9F74)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll\nrf_gzll_constants.h)(0x559E9F74)
+F (..\User\ep_motor.c)(0x56A054CB)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\ep_motor.o --omf_browse .\_build\ep_motor.crf --depend .\_build\ep_motor.d)
+I (..\User\ep_motor.h)(0x56A054B5)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (..\Include\nrf_gpio.h)(0x5451087C)
+I (..\User\ep_comm.h)(0x569F80A4)
+I (..\User\ep_misc.h)(0x569F826F)
+I (..\User\ep_gps.h)(0x5684E027)
+I (..\User\twi_master_int.h)(0x5684D862)
+F (..\User\ep_protection.c)(0x56A1CFEC)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\ep_protection.o --omf_browse .\_build\ep_protection.crf --depend .\_build\ep_protection.d)
+I (..\Include\nrf_gpio.h)(0x5451087C)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (..\User\ep_tick.h)(0x56656133)
+I (..\User\ep_protection.h)(0x568A1068)
+I (..\User\ep_motor.h)(0x56A054B5)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (..\User\ep_comm.h)(0x569F80A4)
+I (..\User\ep_misc.h)(0x569F826F)
+F (..\User\ep_pstorage.c)(0x568DFEA4)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\ep_pstorage.o --omf_browse .\_build\ep_pstorage.crf --depend .\_build\ep_pstorage.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error.h)(0x54DDCD7A)
+I (..\Include\nrf_gpio.h)(0x5451087C)
+I (D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC\pstorage.h)(0x559E9F74)
+I (D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC\pstorage_platform.h)(0x559E9F74)
+I (..\User\ep_pstorage.h)(0x568B83AB)
+I (..\User\ep_gzll.h)(0x569CCCDD)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll\nrf_gzll.h)(0x559E9F74)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll\nrf_gzll_constants.h)(0x559E9F74)
+I (..\User\ep_comm.h)(0x569F80A4)
+I (..\Include\nrf_delay.h)(0x565D3730)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler\softdevice_handler.h)(0x559E9F76)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (..\Include\nordic_common.h)(0x53B263DE)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_sdm.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_svc.h)(0x54EC1A10)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_soc.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error_soc.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error_sdm.h)(0x54DDCD7A)
+I (D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x559E9F74)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util\app_util.h)(0x559E9F74)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler\ble_stack_handler_types.h)(0x559E9F76)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_ranges.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_types.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gap.h)(0x54EC1B10)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_l2cap.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_err.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gatt.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gattc.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gatts.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler\ant_stack_handler_types.h)(0x559E9F76)
+I (..\User\ep_ble_stack.h)(0x56848EAE)
+F (..\User\ep_gzll.c)(0x569CCCB6)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\ep_gzll.o --omf_browse .\_build\ep_gzll.crf --depend .\_build\ep_gzll.d)
+I (..\User\ep_gzll.h)(0x569CCCDD)
+I (..\Include\nrf_gpio.h)(0x5451087C)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll\nrf_gzll.h)(0x559E9F74)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll\nrf_gzll_constants.h)(0x559E9F74)
+I (..\User\ep_comm.h)(0x569F80A4)
+F (..\User\ep_ble_stack.c)(0x5684D0F2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\ep_ble_stack.o --omf_browse .\_build\ep_ble_stack.crf --depend .\_build\ep_ble_stack.d)
+I (..\Include\nrf_gpio.h)(0x5451087C)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (..\User\ep_tick.h)(0x56656133)
+I (..\User\ep_ble_stack.h)(0x56848EAE)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler\softdevice_handler.h)(0x559E9F76)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (..\Include\nordic_common.h)(0x53B263DE)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_sdm.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_svc.h)(0x54EC1A10)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_soc.h)(0x54DDCD7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error_soc.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error_sdm.h)(0x54DDCD7A)
+I (D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x559E9F74)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util\app_util.h)(0x559E9F74)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler\ble_stack_handler_types.h)(0x559E9F76)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_ranges.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_types.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gap.h)(0x54EC1B10)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_l2cap.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_err.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gatt.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gattc.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gatts.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler\ant_stack_handler_types.h)(0x559E9F76)
+I (..\User\ep_pstorage.h)(0x568B83AB)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC\pstorage.h)(0x559E9F74)
+I (D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC\pstorage_platform.h)(0x559E9F74)
+I (..\User\ep_gzll.h)(0x569CCCDD)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll\nrf_gzll.h)(0x559E9F74)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll\nrf_gzll_constants.h)(0x559E9F74)
+F (..\User\ep_misc.c)(0x569F82A9)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\ep_misc.o --omf_browse .\_build\ep_misc.crf --depend .\_build\ep_misc.d)
+I (..\User\ep_misc.h)(0x569F826F)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+F (..\User\ep_battery.c)(0x568D0D0F)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\ep_battery.o --omf_browse .\_build\ep_battery.crf --depend .\_build\ep_battery.d)
+I (..\User\ep_battery.h)(0x568B6343)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (..\User\ep_gps.h)(0x5684E027)
+I (..\User\twi_master_int.h)(0x5684D862)
+I (..\Include\nrf_gpio.h)(0x5451087C)
+I (..\User\ep_misc.h)(0x569F826F)
+F (..\..\..\Abstract.txt)(0x00000000)()
+F (..\..\..\license.txt)(0x00000000)()
+F (RTE\Device\nRF51422_xxAC\arm_startup_nrf51.s)(0x557E3D68)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers--pd "BLE_STACK_SUPPORT_REQD SETA 1" --pd "BOARD_PCA10028 SETA 1" --pd "S110 SETA 1" --pd "NRF51 SETA 1" --pd "SOFTDEVICE_PRESENT SETA 1" --pd "SWI_DISABLE0 SETA 1"-o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
+F (RTE\Device\nRF51422_xxAC\system_nrf51.c)(0x557E3D68)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+F (RTE\nRF_Drivers\nRF51422_xxAC\app_uart.h)(0x559E9F74)()
+F (RTE\nRF_Drivers\nRF51422_xxAC\app_uart_fifo.c)(0x559E9F74)()
+F (RTE\nRF_Drivers\nRF51422_xxAC\pstorage.c)(0x559E9F74)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\pstorage.o --omf_browse .\_build\pstorage.crf --depend .\_build\pstorage.d)
+I (RTE\nRF_Drivers\nRF51422_xxAC\pstorage.h)(0x559E9F74)
+I (RTE\nRF_Drivers\nRF51422_xxAC\pstorage_platform.h)(0x559E9F74)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\Include\nordic_common.h)(0x53B263DE)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error.h)(0x54DDCD7A)
+I (..\Include\nrf_assert.h)(0x53B263DE)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_soc.h)(0x54DDCD7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_svc.h)(0x54EC1A10)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error_soc.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util\app_util.h)(0x559E9F74)
+I (D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x559E9F74)
+F (RTE\nRF_Drivers\nRF51422_xxAC\pstorage.h)(0x559E9F74)()
+F (RTE\nRF_Drivers\nRF51422_xxAC\pstorage_platform.h)(0x559E9F74)()
+F (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common\nrf_drv_common.c)(0x559E9F74)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\nrf_drv_common.o --omf_browse .\_build\nrf_drv_common.crf --depend .\_build\nrf_drv_common.d)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common\nrf_drv_common.h)(0x559E9F74)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (..\Include\nrf_assert.h)(0x53B263DE)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_soc.h)(0x54DDCD7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_svc.h)(0x54EC1A10)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error_soc.h)(0x54DDCD7A)
+F (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal\nrf_delay.c)(0x559E9F74)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\nrf_delay.o --omf_browse .\_build\nrf_delay.crf --depend .\_build\nrf_delay.d)
+I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal\nrf_delay.h)(0x559E9F74)
+F (RTE\nRF_Libraries\nRF51422_xxAC\app_error.c)(0x559E9F74)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\app_error.o --omf_browse .\_build\app_error.crf --depend .\_build\app_error.d)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_deprecated.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x559E9F74)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error.h)(0x54DDCD7A)
+I (..\Include\nordic_common.h)(0x53B263DE)
+F (RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x559E9F74)()
+F (RTE\nRF_Libraries\nRF51422_xxAC\nrf_assert.c)(0x559E9F74)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\nrf_assert.o --omf_browse .\_build\nrf_assert.crf --depend .\_build\nrf_assert.d)
+I (RTE\nRF_Libraries\nRF51422_xxAC\nrf_assert.h)(0x559E9F74)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+F (RTE\nRF_Libraries\nRF51422_xxAC\nrf_assert.h)(0x559E9F74)()
+F (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll\arm\gzll_arm.lib)(0x559E9F74)()
+F (RTE\nRF_SoftDevice\nRF51422_xxAC\s110_nrf51_8.0.0_licence-agreement.txt)(0x54ED70D0)()
+F (RTE\nRF_SoftDevice\nRF51422_xxAC\s110_softdevice.hex)(0x54ED2D14)()
+F (RTE\nRF_SoftDevice\nRF51422_xxAC\softdevice_handler.c)(0x559E9F76)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\nrf51822_gzll_ble -I..\Include -I..\Source -I..\arm5 --c99-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Drivers\nRF51422_xxAC-I D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\common-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\pstorage-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler-I d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers-D_RTE_ -DNRF51 -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0 -DDEBUG_NRF-o .\_build\softdevice_handler.o --omf_browse .\_build\softdevice_handler.crf --depend .\_build\softdevice_handler.d)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler\softdevice_handler.h)(0x559E9F76)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (..\Include\nordic_common.h)(0x53B263DE)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_sdm.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_svc.h)(0x54EC1A10)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51.h)(0x557E3D64)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm0.h)(0x53688AAC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\system_nrf51.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_soc.h)(0x54DDCD7A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\nrf51_bitfields.h)(0x557E3D66)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error_soc.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\nrf_error_sdm.h)(0x54DDCD7A)
+I (D:\Dropbox\epropulsion\hydrofoil\program\nrf51822_gzll_ble\arm5\RTE\nRF_Libraries\nRF51422_xxAC\app_error.h)(0x559E9F74)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Libraries\3.0.1\util\app_util.h)(0x559E9F74)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.0.3\Device\Include\compiler_abstraction.h)(0x557E3D68)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler\ble_stack_handler_types.h)(0x559E9F76)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_ranges.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_types.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gap.h)(0x54EC1B10)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_l2cap.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_err.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gatt.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gattc.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_S110\8.0.2\headers\ble_gatts.h)(0x54DDCD7A)
+I (d:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_SoftDevice_Common\1.1.4\softdevice_handler\ant_stack_handler_types.h)(0x559E9F76)
+I (..\Include\nrf_assert.h)(0x53B263DE)

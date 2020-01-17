@@ -1,0 +1,12 @@
+.\_build\ep_misc.o: ..\User\ep_misc.c
+.\_build\ep_misc.o: ..\User\ep_misc.h
+.\_build\ep_misc.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\nrf.h
+.\_build\ep_misc.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\nrf51.h
+.\_build\ep_misc.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0.h
+.\_build\ep_misc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\ep_misc.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+.\_build\ep_misc.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+.\_build\ep_misc.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\system_nrf51.h
+.\_build\ep_misc.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\nrf51_bitfields.h
+.\_build\ep_misc.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\nrf51_deprecated.h
+.\_build\ep_misc.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\compiler_abstraction.h

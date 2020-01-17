@@ -1,0 +1,30 @@
+.\_build\ep_timerecord.o: ..\Src\ep_TimeRecord.c
+.\_build\ep_timerecord.o: ..\Src\ep_TimeRecord.h
+.\_build\ep_timerecord.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\nrf.h
+.\_build\ep_timerecord.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\nrf51.h
+.\_build\ep_timerecord.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0.h
+.\_build\ep_timerecord.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\ep_timerecord.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+.\_build\ep_timerecord.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+.\_build\ep_timerecord.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\system_nrf51.h
+.\_build\ep_timerecord.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\nrf51_bitfields.h
+.\_build\ep_timerecord.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\nrf51_deprecated.h
+.\_build\ep_timerecord.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.2\Device\Include\compiler_abstraction.h
+.\_build\ep_timerecord.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\_build\ep_timerecord.o: ..\Src\ep_throttle.h
+.\_build\ep_timerecord.o: ..\Src\main.h
+.\_build\ep_timerecord.o: ..\Src\ep_pstorage.h
+.\_build\ep_timerecord.o: D:\E\ElectricPowerSteeringSystem\Navy6.0_handle_V2.1_20180907_Release - debug - 190311\arm5\RTE\nRF_Drivers\nRF51422_xxAC\pstorage.h
+.\_build\ep_timerecord.o: D:\E\ElectricPowerSteeringSystem\Navy6.0_handle_V2.1_20180907_Release - debug - 190311\arm5\RTE\nRF_Drivers\nRF51422_xxAC\pstorage_platform.h
+.\_build\ep_timerecord.o: ..\Src\ep_lcd_6kw.h
+.\_build\ep_timerecord.o: ..\Src\ep_battery.h
+.\_build\ep_timerecord.o: ..\Src\ep_comm.h
+.\_build\ep_timerecord.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.1\hal\nrf_gpio.h
+.\_build\ep_timerecord.o: ..\Src\ep_sys.h
+.\_build\ep_timerecord.o: ..\Src\ep_lcd_6kw.h
+.\_build\ep_timerecord.o: ..\Src\ep_version.h
+.\_build\ep_timerecord.o: ..\Src\ep_led.h
+.\_build\ep_timerecord.o: ..\Src\ep_gzll.h
+.\_build\ep_timerecord.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll\nrf_gzll.h
+.\_build\ep_timerecord.o: C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Properitary_RF\1.2.1\gzll\nrf_gzll_constants.h
+.\_build\ep_timerecord.o: ..\Src\ep_motor.h

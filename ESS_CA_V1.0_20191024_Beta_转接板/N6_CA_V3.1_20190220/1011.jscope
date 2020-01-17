@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" Connection="1" SerialNo="0" IP="" TargetDevice="unspecified" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="D:\E\ElectricPowerSteeringSystem\ESS_CA_V1.0_20191011_Beta\N6_CA_V3.1_20190220\arm5\_build\nrf51422_xxac_s110.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="SetMotorOnFlag" Address="0x200021D5" Type="uchar" TypeID="6" Size="1" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="0" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="1" File="..\User\main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="SetMotorOffFlag" Address="0x200021D6" Type="uchar" TypeID="6" Size="1" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="0" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="1" File="..\User\main.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="cmdOverTimeCnt" Address="0x2000206F" Type="uchar" TypeID="6" Size="1" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="176" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="0" ShowInGraph="1" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="1" File="..\User\ep_spi_slave.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

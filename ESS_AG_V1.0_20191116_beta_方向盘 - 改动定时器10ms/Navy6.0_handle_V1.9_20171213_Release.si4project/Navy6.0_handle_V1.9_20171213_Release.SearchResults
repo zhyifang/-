@@ -1,0 +1,5 @@
+---- handle->Pre_State Matches (4 in 2 files) ----
+Comm_Init in ep_comm.c (Src) :     handle->Pre_State =  Comm_State_Disconnected;	
+Comm_RS485ModeSend in ep_comm.c (Src) : 		handle->Pre_State =  Comm_State_Disconnected;	
+Comm_GzllModeSend in ep_comm.c (Src) : 		handle->Pre_State =  Comm_State_Disconnected;
+{anonComm_Handle_t} in ep_comm.h (Src) :     Comm_State_e	         Pre_State;

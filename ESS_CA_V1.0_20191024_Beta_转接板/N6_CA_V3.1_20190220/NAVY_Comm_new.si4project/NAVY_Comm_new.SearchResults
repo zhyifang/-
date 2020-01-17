@@ -1,0 +1,10 @@
+---- Motor_Handle.SetMotorOffFlag Matches (9 in 4 files) ----
+Comm_Decode in ep_comm.c (User) : 			Motor_Handle.SetMotorOffFlag = false;
+Comm_Decode in ep_comm.c (User) : 		    Motor_Handle.SetMotorOffFlag = true;
+Motor_Init in ep_motor.c (User) : 	Handle->SetMotorOffFlag  = false;
+{anonMotor_Handle_t} in ep_motor.h (User) : 	uint8_t								SetMotorOffFlag;
+TxCommand in ep_spi_slave.c (User) : 			else if(Motor_Handle.SetMotorOffFlag == true)
+TxCommand in ep_spi_slave.c (User) : 					Motor_Handle.SetMotorOffFlag = false;
+TxCommand in ep_spi_slave.c (User) : 			else if(Motor_Handle.SetMotorOffFlag == true)
+TxCommand in ep_spi_slave.c (User) : 					Motor_Handle.SetMotorOffFlag = false;
+HandleCommand in ep_spi_slave.c (User) : 			 	Motor_Handle.SetMotorOffFlag = false;
